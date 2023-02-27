@@ -3,9 +3,9 @@ import { FaGithub, FaFacebook, FaLinkedin} from "react-icons/fa";
 
 const TopBanner = () => {
     return (
-        <div className="hero lg:min-h-screen bg-no-repeat mb-10" style={{ backgroundImage: `url("https://www.codewizardshq.com/wp-content/uploads/2021/12/M22-Interactive-web-with-javascript-banner.jpg")`}}>
+        <div className="hero bg-no-repeat bg-cover mb-10" style={{ backgroundImage: `url("https://www.codewizardshq.com/wp-content/uploads/2021/12/M22-Interactive-web-with-javascript-banner.jpg")`}}>
             <div className="hero-overlay bg-opacity-60"></div>
-            <div className="hero-content text-center text-neutral-content">
+            <div className="hero-content text-center py-10 px-5 lg:py-36  text-neutral-content">
                 <div className='p-2'>
                     <h1 className="mb-5 text-5xl font-bold">Hi, I am <span className='text-orange-400'>Sabbir Howlader</span></h1>
                     <p className="mb-5 max-w-lg">I am Front-End React Developer. I can provide clean code and make Responsive website by usinig HTML, CSS, Bootstrap, JavaScript, React.js, React-hook-form, Node.js, TailwindCss, Daisy UI, Firebase-Authentication, MongoDB, Versel, figma and more.</p>
