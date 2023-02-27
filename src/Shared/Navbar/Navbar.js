@@ -22,7 +22,7 @@ const Navbar = () => {
                         {MenuItem}
                     </ul>
                 </div>
-                <div className='flex items-center gap- ml-4'>
+                <div className='flex items-center gap-2 ml-4'>
                     <img src={logo} alt="" className='rounded-full' style={{ height: 50, width: 50 }} />
                     <Link to="/" className="btn btn-ghost normal-case text-xl">Sabbir Howlader</Link>
                 </div>
