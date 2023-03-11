@@ -1,7 +1,9 @@
 import React from 'react';
+import useTitle from '../../../Hook/UseTitle/UseTitle';
 import about from '../../../Sabbir portfolio/About me.jpeg'
 
 const About = () => {
+    useTitle('About Us')
     return (
         <div className="hero">
             <div className="hero-content flex-col lg:flex-row">

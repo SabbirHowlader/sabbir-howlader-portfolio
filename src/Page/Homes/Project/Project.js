@@ -9,6 +9,7 @@ import img7 from '../../../Assets/cover-img/News portal.png'
 import img8 from '../../../Assets/cover-img/Food house.png'
 import img9 from '../../../Assets/cover-img/Web developer School.png'
 import { Link } from 'react-router-dom';
+import useTitle from '../../../Hook/UseTitle/UseTitle';
 
 
 const cardData = [
@@ -96,6 +97,7 @@ const cardData = [
 ]
 
 const Project = () => {
+    useTitle('Project')
     return (
         <div className='my-10'>
             <h1 className='text-5xl text-center font-gloock text-green-600 my-10'>Project</h1>

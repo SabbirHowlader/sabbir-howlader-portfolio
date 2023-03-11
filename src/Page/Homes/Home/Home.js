@@ -1,4 +1,5 @@
 import React from 'react';
+import useTitle from '../../../Hook/UseTitle/UseTitle';
 import About from '../About/About';
 import Contact from '../Contact/Contact';
 import MyWork from '../MyWork/MyWork';
@@ -7,6 +8,7 @@ import Skill from '../Skill/Skill';
 import TopBanner from '../TopBanner/TopBanner';
 
 const Home = () => {
+    useTitle('Home')
     return (
         <div>
             <TopBanner></TopBanner>
