@@ -65,7 +65,7 @@ const Skill = () => {
         },
         {
             id: 13,
-            name: "React-Hook-Form",
+            name: "React-Form",
             img: "https://i.ytimg.com/vi/nF4vw3efUwY/maxresdefault.jpg"
         },
         {
@@ -76,11 +76,11 @@ const Skill = () => {
 
     ]
     return (
-        <div className='my-10'>
+        <div className='my-20'>
             <div>
-                <h2 className='text-5xl font-bold text-center text-green-600 mb-6'>My Skill</h2>
+                <h1 className='text-5xl text-center font-gloock text-green-600 my-10'>My Skill</h1>
             </div>
-            <div className='grid gap-3 grid-cols-2 md:grid-cols-3 lg:grid-cols-5'>
+            <div className='grid gap-5 grid-cols-2 md:grid-cols-3 lg:grid-cols-5 mx-5'>
                 {
                     mySkill.map(skill => <Skills
                         key={skill.id}

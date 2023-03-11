@@ -7,9 +7,9 @@ const TopBanner = () => {
             <div className="hero-overlay bg-opacity-60"></div>
             <div className="hero-content text-center py-10 px-5 lg:py-36  text-neutral-content">
                 <div className='p-2'>
-                    <h1 className="mb-5 text-5xl font-bold">Hi, I am <span className='text-orange-400'>Sabbir Howlader</span></h1>
-                    <p className="mb-5 max-w-lg">I am Front-End React Developer. I can provide clean code and make Responsive website by usinig HTML, CSS, Bootstrap, JavaScript, React.js, React-hook-form, Node.js, TailwindCss, Daisy UI, Firebase-Authentication, MongoDB, Versel, figma and more.</p>
-                    <div className='flex justify-center mt-10 gap-10 text-4xl font-bold '>
+                    <h1 className="mb-5 text-5xl font-gloock">Hi, I am <span className='text-orange-400'>Sabbir Howlader</span></h1>
+                    <p className="mb-5 max-w-lg font-serif leading-9 tracking-wide">I am Front-End React Developer. I can provide clean code and make Responsive website by usinig HTML, CSS, Bootstrap, JavaScript, React.js, React-hook-form, Node.js, TailwindCss, Daisy UI, Firebase-Authentication, MongoDB, Versel, figma and more.</p>
+                    <div className='flex justify-center gap-10 text-4xl font-bold '>
                         <a className='hover:text-orange-400' href="https://github.com/SabbirHowlader"><FaGithub></FaGithub></a>
                         <a className='hover:text-orange-400'href="https://www.linkedin.com/in/sabbir-howlader60/"><FaLinkedin></FaLinkedin></a>
                         <a className='hover:text-orange-400'  href="https://www.facebook.com/Sabbirhowlader2/"><FaFacebook></FaFacebook></a>
